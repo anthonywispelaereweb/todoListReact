@@ -1,6 +1,6 @@
 import TodoFeature from './components/TodoFeature';
 import TodoProvider from './components/TodoProvider';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
     <TodoProvider>
